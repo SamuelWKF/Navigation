@@ -16,8 +16,11 @@
     <!-- TODO Step 9.1 - Add an item for the settings fragment -->
     <item
         android:id="@+id/settings_dest"
+        android:enabled="true"
         android:icon="@drawable/ic_settings"
         android:menuCategory="secondary"
-        android:title="@string/settings" />
+        android:title="@string/settings"
+        android:visible="true"
+        app:showAsAction="withText" />
     <!-- TODO END STEP 9.1 -->
 </menu>
